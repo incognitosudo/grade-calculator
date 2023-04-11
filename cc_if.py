@@ -32,7 +32,7 @@ root = tk.Tk()
 root.title("Grade Calculator")
 root.geometry("400x220")
 # Create widgets (labels, buttons, entry boxes) and add them to the window
-grade_label = tk.Label(root, text="Enter student grade:")
+grade_label = tk.Label(root, text="Enter student grade: %")
 grade_label.pack()
 
 student_grade = tk.Entry(root)
